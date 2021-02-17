@@ -1,5 +1,5 @@
 # Building the App with Maven
-FROM maven:3.6.1-jdk-11-slim
+FROM openjdk:11.0.10
 
 RUN apt update
 RUN apt install -y ffmpeg
